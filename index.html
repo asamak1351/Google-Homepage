@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Google Search</title>
+    <link rel="stylesheet" href="form.css" />
+    <link rel="icon" href='browsericon.ico' type="image/x-icon" />
+</head>
+<body>
+    <input type="button" value="Advanced" onclick="window.location.href='gadvanced.html'" class="buttons" id="Advanced"/>
+    <input type="button" value="Images" onclick="window.location.href='gimage.html'" class="buttons"/>
+
+    <div style="text-align:center">
+        <a href='index.html'><img src="C:\Users\Anthony\Documents\Harvard WebDev Course\Project 0\googlelogo.png" alt="Google" height="92" width="271" style="padding-top: 52px; padding-left:128px" id="image" /></a>
+
+        <form action="https://www.google.com/search" id="searchform" style="padding-top:28px">
+            <input type="text" name="q" size="50" id="searchbar">
+        </form>
+        <input type="submit" value="Google Search" id="searchbutton" form="searchform">
+    </div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Advanced Search</title>
+    <link rel="stylesheet" href="form.css" />
+    <link rel="icon" href='browsericon.ico' type="image/x-icon" />
+</head>
+<body style="background-color: #ffffff">
+    <input type="button" value="Images" onclick="window.location.href='gimage.html'" class="buttons" style="background-color: #ffffff; color: #202124"/>
+    <input type="button" value="Google Search" onclick="window.location.href='index.html'" class="buttons" id="Advanced" style="background-color: #ffffff; color: #202124"/>
+
+    <div style=" padding-left:30px">
+        <h3 style="padding-top:70px;">Advanced Search</h3>
+        <form action="https://google.com/search" id="asearchform" oninput="x.value=parse(a.value)+parseInt(b.value)">
+            <h4>Find Pages with ... </h4><br />
+            <label for="AllTheseWords">all these words:</label>
+            <input type="text" name="as_q" style="margin-bottom:20px; margin-left:90px;" /><br />
+
+            <label for="Word||Phrase">this exact word or phrase:</label>
+            <input type="text" name="as_epq" style="margin-bottom:20px; margin-left:25px" /><br />
+
+            <label for="AnyTheseWords">any of these words:</label>
+            <input type="text" name="as_oq" style="margin-bottom: 20px; margin-left: 65px" /><br />
+
+            <label for="NoneTheseWords">none of these words:</label>
+            <input type="text" name="as_eq" style="margin-bottom:20px; margin-left:57px" /><br />
+
+            <input type="submit" value="Advanced Search" id="ASearch"/>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,78 @@
+﻿body {
+        background-color: #202124;
+}
+
+.image:hover{
+    cursor:pointer;
+}
+
+#searchbar {
+    color: #e8eaed;
+    background-color: #202124;
+    border: solid #5f6368 2px;
+    border-width: 1px;
+    border-radius: 40px;
+    height: 40px;
+    width: 550px;
+    text-indent:20px;
+    font-size: 16px;
+    caret-color: white;
+}
+
+#searchbar:hover {
+        background-color: #303134;
+        border: solid #303134 2px;
+}
+
+#searchbar:focus {
+        background-color: #303134;
+        border: solid #303134 2px;
+}
+
+#asearchform{
+    padding-top:50px;
+}
+
+#searchbutton {
+    background-color: #303134;
+    border: solid #303134 2px;
+    border-radius:5px;
+    width:132px;
+    height: 38px;
+    font-size:15px;
+    color: #e8eaed;
+    margin-top:24px;
+}
+
+#ASearch {
+    background-color: #3c80ee;
+    border-color: #3079ed;
+    font-weight:bold;
+    color:white;
+    height:25px;
+    margin-left:235px;
+}
+
+    #ASearch:hover {
+        border-color: #2f5bb7
+    }
+
+#searchbutton:hover {
+    border: solid #5f6368 2px;
+    cursor:pointer;
+}
+
+.buttons {
+    display: inline-block;
+    float: right;
+    background-color: #202124;
+    color: #e8eaed;
+    border:0px;
+    
+}
+.buttons:hover {
+        cursor: pointer;
+        text-decoration:underline;
+}
+
+
